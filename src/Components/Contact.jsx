@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div className="w-full max-h-[500px] overflow-y-scroll no-scrollbar">
+        <div className="w-full max-h-[80vh] overflow-y-scroll no-scrollbar mt-10">
             <div className="bg-[url('/heroImage.jpg')] w-full h-[50%] bg-cover bg-center text-center text-white">
                 <h1 className="md:text-6xl text-lg pt-28 tracking-wider">Contact Us</h1>
                 <a href="/" className="text-red-500 p-1">Home</a><span> | Contact</span>

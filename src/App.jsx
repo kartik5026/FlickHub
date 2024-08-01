@@ -14,10 +14,10 @@ function App() {
       <MovieProvider>
         <TopBar />
         
-      <div className="flex">
-        <NavBar className="mb-0" />
+      <div className="flex" >
+        <NavBar  />
 
-        <Routers className="mb-0" />
+        <Routers  />
       </div>
 
       </MovieProvider>

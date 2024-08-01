@@ -14,7 +14,7 @@ function SearchPage(){
     return(
         <>
         
-        <div className="flex flex-wrap max-h-[500px] overflow-y-scroll no-scrollbar scroll-smooth">
+        <div className="flex flex-wrap max-h-[80vh] mt-10 overflow-y-scroll no-scrollbar scroll-smooth">
             {
                 searchData.map((item,id)=>(
                     <div  key={id-1} className="md:w-1/6 p-4 text-center w-1/2">

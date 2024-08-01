@@ -20,7 +20,7 @@ function TVShows() {
         <>
         {
         isLoading==false?
-        <div className="mt-10 flex flex-wrap scroll-smooth no-scrollbar md:max-h-[500px] max-h-[430px] overflow-y-scroll ">
+        <div className="mt-10 flex flex-wrap scroll-smooth no-scrollbar  max-h-[80vh] overflow-y-scroll ">
             {topMovies.map((item, id) => (
 
                 <div className="p-4 text-center md:w-1/5 w-full hover:border rounded-xl" key={id-1}>

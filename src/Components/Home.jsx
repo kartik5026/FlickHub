@@ -26,7 +26,7 @@ function Home() {
    return (
       <>
          {isLoading === false ? (
-            <div className="flex max-h-[430px] md:ml-0 md:max-h-full md:overflow-x-scroll md:flex-row md:justify-evenly flex-col overflow-y-scroll scroll-smooth no-scrollbar mt-5 ml-[20%]">
+            <div className="flex max-h-[80vh] md:ml-0 md:max-h-full md:overflow-x-scroll md:flex-row md:justify-evenly flex-col overflow-y-scroll scroll-smooth no-scrollbar mt-5 ml-[20%]">
                {shows.map((item, id) => (
                   <div className="p-5 md:ml-32 md:text-lg text-xs text-center justify-center rounded-3xl w-full" key={id - 1}>
                      <img

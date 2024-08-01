@@ -21,7 +21,7 @@ function Movies() {
         {   
             isLoading===false?
             
-            <div className="flex flex-wrap md:max-h-[500px]  max-h-[430px] overflow-y-scroll no-scrollbar scroll-smooth mt-10">
+            <div className="flex flex-wrap  max-h-[80vh] overflow-y-scroll no-scrollbar scroll-smooth mt-10">
                 {
                     topMovies.map((item,id) => (
                         <div key={id-1} className="md:w-1/5 text-center w-full p-4  hover:border rounded-xl">

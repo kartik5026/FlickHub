@@ -8,7 +8,7 @@ import Home from "./Home";
 function NavBar() {
     return (
         <>
-            <div className="md:w-36 w-28 h-full  flex flex-col justify-evenly mt-4 ml-2 md:text-xl text-sm">
+            <div className="md:w-36 w-28  min-h-[90vh]  flex flex-col justify-evenly mt-4 ml-2 md:text-xl text-sm">
                 <Link to={"/"}>
                     <div className="my-8 py-2 text-center hover:bg-[#E4003A] rounded-lg px-4 w-full flex flex-row justify-evenly">
                         <FaHome className="mt-1" />
